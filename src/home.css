@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgb(245, 243, 243);
+}
+
+.second_container {
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.create_account {
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.form_div {
+    margin-top: 2rem;
+}
+
+.labels {
+    display: block;
+    color: rgb(143, 142, 142);
+}
+
+.input {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 2px;
+    border: 1px solid rgb(177, 172, 172);
+    border-radius: 5px;
+}
+
+.input:hover,
+:focus {
+    border: 1px solid rgb(58, 164, 245);
+}
+
+.password_warning {
+    font-size: x-small;
+    color: red;
+}
+
+.create_acc_btn {
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 4px;
+    color: white;
+    background-color: rgb(99, 196, 245);
+    border: 1px solid rgb(99, 196, 245);
+    border-radius: 5px;
+    ;
+}
+
+.have_acc {
+    color: darkgray
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main_container {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        background-color: rgb(245, 243, 243);
+        height: 100%;
+    }
+
+    .second_container {
+        border-radius: 10px;
+
+        background-color: white;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    .create_account {
+        text-align: center;
+        font-size: 20px;
+        font-style: bold;
+    }
+
+    .form_div {
+        margin-top: 2rem;
+    }
+
+    .labels {
+        display: block;
+        color: rgb(143, 142, 142);
+    }
+
+    .input {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 2px;
+        border: 1px solid rgb(177, 172, 172);
+        border-radius: 5px;
+    }
+
+    .input:hover,
+    :focus {
+        border: 1px solid rgb(58, 164, 245);
+    }
+
+    .password_warning {
+        font-size: x-small;
+        color: red;
+    }
+
+    .create_acc_btn {
+        width: 100%;
+        padding: 5px;
+        padding-bottom: 5px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 4px;
+        color: white;
+        background-color: rgb(99, 196, 245);
+        border: 1px solid rgb(99, 196, 245);
+        border-radius: 5px;
+        ;
+    }
+
+    .have_acc {
+        color: darkgray
+    }
+}
